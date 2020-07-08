@@ -1,0 +1,282 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+/*--TYPOGRAPHY--*/
+p{
+    font-size: 16px;
+    line-height: 36px;
+    color: #585859;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    max-width: 405px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    text-align: center;
+}
+
+h3{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FD511A;
+}
+
+
+
+/*--SECTION:navbar--*/
+
+a.navbar-brand {
+    max-width: 200px;
+}
+
+li.nav-item {
+    padding: 0px 10px;
+}
+
+.nav-item:last-child {
+    padding-right: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav a:hover{
+    color: #5498e6!important;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(45deg,#0eca92,#5498e6);
+    border-image-slice: 1;
+}
+
+/*--SECTION:banner-area--*/
+
+.banner-content p{
+    max-width: 403px;
+}
+.green-highlight{
+    color: #21B573;
+}
+
+
+
+/*--Background--*/
+
+section.navbar-section, .banner-area {
+    background: #F0FFF0;
+}
+footer{
+    background: #282531;
+}
+
+/*--Button--*/
+
+.btn-primary{
+    padding: 15px 40px;
+    border-radius: 33px;
+    line-height: 19px;
+    background-color: #21B573;
+    border: none;
+    
+ }
+
+.btn-primary:hover {
+    color: #fff;
+    background-image: linear-gradient(45deg,#5498e6,#21B573);
+    border-color:none;
+}
+
+/*--Section:learning-community-area--*/
+
+h4.card-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+
+.learning-community-area img.card-img-top {
+    max-width: 80px;
+    margin: 0 auto;
+    max-height: 122px;
+}
+
+.learning-community-area .card-body {
+    text-align: center;
+    padding: 30px;
+}
+
+.learning-community-area .card img {
+    padding-top:42px;
+}
+
+.learning-community-area .card{
+    transition: .3s ease;
+    background: #F8FFFB;
+    border:none;
+}
+/*hover effect in cards*/
+.learning-community-area .card:hover{                                                   
+    background: #FFFFFF;
+    box-shadow: 0px 30px 50px #9e9999;
+    border-radius: 10px;
+}
+
+/*--Section:Online-Course-Area--*/
+
+.online-course-area .card-img-top {
+    padding: 20px;
+}
+
+.online-course-area .card-body {
+    padding-top: 0px;
+}
+
+.online-course-area .card {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 50px #9e9999;
+    border-radius: 18px;
+}
+
+.icon-position p {
+    padding-left: 12px;
+    margin-bottom: 0;   
+}
+
+img.ml-3{
+    width: 24px;
+}
+
+.online-course-area .col-12:hover {
+    /-webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.online-course-area .row {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/*-- Section:testimonial Area--*/
+
+.testimonial-area{
+    margin:100px 200px 60px 200px;
+}
+.testimonial-area h2, p{
+    color: black;
+}
+
+/*discount*/
+
+.box {
+    text-align: center;
+}
+.coupon {
+    display: inline-block;
+    border: 1px dashed #000;
+    padding: 0.8em 1.2em;
+    position: relative;
+    font-weight: bold;
+    background: #FFC107;
+}
+
+span.scissors {
+    position: absolute;
+    top: -12px;
+    right: 0;
+}
+.inner {
+    display: inline-block;
+    border: 1px solid #080808;
+    padding: 1.2em 2.2em 2.2em 2.2em;
+    background-image: linear-gradient(45deg,#5498e6,#21B573);
+}
+
+.carousel-indicators li{
+    background-color: gray;
+    height: 8px;
+    width: 16px;
+    border: none;
+    border-radius: 15px;
+}
+.carousel-indicators .active{
+    background-image: linear-gradient(to left, #137a5c,#0fd1eb);
+    height: 8px;
+    width: 16px;
+    border: none;
+    border-radius: 15px;
+}
+.instructor-section{
+background-color: rgb(247, 242, 242);
+}
+#carouselExampleIndicators h3{
+    font-size: 20px;
+}
+
+/* footer section */
+
+footer p,footer li {
+    color: #fff;
+
+}
+.footer-area{
+    padding: 40px 0 20px 0;
+}
+footer ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+footer ul li {
+    list-style: none;
+}
+footer ul {
+    padding: 0;
+}
+footer li{
+    font-size: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+ }
+ .icon{
+    padding-left: 10px;
+    padding-right: 40%;
+  }
+  .fa {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+}
+  .fa:hover {
+    opacity: 0.7;
+
+}
+
+  .fa-google {
+    background: #646262;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #646262;
+    color: white;
+  }
